@@ -1,0 +1,101 @@
+{ margin: 0; padding: 0; box-sizing: border-box; } body { font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+header {
+  background-image: url(../images/bike-background.jpg);
+  height: 30vh;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.cart-button {
+    padding: 10px 20px;
+    background-color: #4caf56;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    float: right;
+
+
+
+
+
+
+
+
+
+
+header > h3 {
+  color: rgb(148, 7, 12);
+  font-size: 2rem;
+}
+
+.getArticles {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #1e3799;
+  background-color: #1e3799;
+  align-items: center;
+  padding: 5px;
+  margin: 10px 20px;
+  border-radius: 7px;
+  color: #f5f6fa;
+}
+
+.green {
+  border-color: #78e08f !important;
+  background-color: #78e08f;
+}
+.element {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.ArticleBike {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid rgb(30, 27, 27);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  width: 70%;
+  margin: auto;
+
+}
+.ArticleBike > img {
+  width: 50%;
+}
+
+.ArticleBike > .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.right > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.note {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.avis {
+  color: rgb(57, 57, 57);
+  opacity: 0.7;
+  text-decoration: underline;
+}
+.containerBikes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
