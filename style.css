@@ -1,6 +1,6 @@
-{margin: 0; padding: 0; box-sizing: border-box; } body { font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+body { font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 header {
-  background-image: url(../images/bike-background.jpg);
+  background-image: url(./bike_img/bike-background.jpeg);
   height: 30vh;
   background-position: center center;
   background-size: cover;
@@ -22,9 +22,13 @@ header {
 
 
 header > h3 {
-  color: rgb(5, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 2rem;
 
+}
+
+.containerBikes{
+  margin-top: 50px;
 }
 
 .getArticles {
